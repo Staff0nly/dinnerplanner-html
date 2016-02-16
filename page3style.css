@@ -1,0 +1,74 @@
+#sidebar { float:left; width: 20%; border-top:solid 1px #dedede; padding: 10px; }
+
+#selector {float: right; width: 80%; border:solid 1px #dedede; }
+#dishes {float: right; width: 80%}  
+
+#dishes {padding:20px; border: solid 1px #dedede;}
+#dishes ul{ list-style-type: none;}
+#dishes ul li{ float:left; width:20%; margin-right:9px; height:383px; overflow:hidden; }
+#dishes ul li{ margin-right:20px; }
+
+#dishes .dishimage {width: 140px; height: 140px;}
+#dishes .dishimage img {width: auto; height: 100%;}
+
+#dish {
+	padding:20px;
+	border: solid 1px #dedede;
+	border-right:0px;
+	float:left;
+	width:80%;
+	overflow:hidden;
+}
+#sidebar .table {
+	margin-top:15px;
+}
+#ingredients{
+	border:solid 1px #000000;
+	float:right;
+	width:50%;
+	background-color:#fae0a3;
+}
+
+#ingredients table td{
+	border:inherit;
+	border-bottom:0px;
+	border-top:0px;
+}
+
+#ingredients table tr:last-child{
+	border-top:solid 1px #000000;
+}
+#dishInfo{
+	float:left;
+	width:50%;
+}
+
+#dish .dishimage{ 
+	width:50%;
+	padding-bottom:10px;
+}
+
+#selector {padding: 10px;}
+
+h1#logo {
+	float:left;
+	width: 100%;
+	background-color: lightgrey;
+	margin:0px;
+	height: 60px;
+	border:2px solid black;
+	border-top:0px;
+	text-indent:50px;
+	} 
+	
+#header a{ color:black;}
+	
+button{
+	background-color:rgb(252,193,31);
+	text-align:center;
+	display:inline-block;
+	font-size:20px;
+	margin-bottom:20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 1px #000000;
+}

@@ -1,0 +1,16 @@
+#sidebar { float:left; width: 20%; border-top:solid 1px #dedede; padding: 10px; }
+
+#selector {float: right; width: 80%; border:solid 1px #dedede; }
+#dishes {float: right; width: 80%}  
+
+#dishes {padding:20px; border: solid 1px #dedede;}
+#dishes ul{ list-style-type: none;}
+#dishes ul li{ float:left; width:20%; margin-right:9px; height:383px; overflow:hidden; }
+#dishes ul li{ margin-right:20px; }
+
+#dishes .dishimage {width: 140px; height: 140px;}
+#dishes .dishimage img {width: auto; height: 100%;}
+
+#selector {padding: 10px;}
+
+h1#logo {float:left; width: 100%; background-color: aqua; margin:0px; height: 60px; padding: } 

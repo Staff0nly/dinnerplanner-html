@@ -1,0 +1,100 @@
+h1#logo {
+	float:left;
+	width: 100%;
+	background-color: lightgrey;
+	margin:0px;
+	height: 60px;
+	border:2px solid black;
+	border-top:0px;
+	padding-top:10px;
+	text-indent:50px;
+	} 
+#header a{ color:black;}
+
+button{
+	background-color:rgb(252,193,31);
+	float:right;
+	text-align:center;
+	display:inline-block;
+	font-size:15px;
+	margin:15px;
+	margin-right:50px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 1px #000000;
+}
+
+#myDinner h2{
+	float:left;
+	text-indent:50px;
+}
+
+#myDinner{
+	float:left;
+	width: 100%;
+	background-color: lightgrey;
+	margin:0px;
+	height: 70px;
+	border:2px solid black;
+	border-top:0px;
+	background-color:#fae0a3;
+}
+
+#printButton{
+	float:left;
+	position:relative;
+	left:50%;
+}
+
+div.img {
+	position:relative;
+	left:25%;
+	margin: 35px;
+	float: left;
+	width: 180px;
+}
+
+div .img #total{
+	position:relative;
+	text-align:left;
+}
+
+#totalString{
+	position:absolute;
+	top:0%;
+	padding-top:210px;
+}
+
+div.img img {
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+	border-bottom:0px;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+	background-color:lightgrey;   
+	border: 2px solid black;
+}
+
+div.price {
+	padding:10px;
+	padding-right:0px;
+	text-align:right;
+	font-weight:bold;
+	color:#6e230c;
+}
+.divider{
+    position:absolute;
+    right:35%;
+    top:14%;
+    bottom:61%;
+    border-left:2px solid black;
+}
+
+hr{
+	border: none;
+    height: 2px;
+    background-color: #333; /* Modern Browsers */
+}

@@ -3,6 +3,7 @@ $(function() {
 	var model = new DinnerModel();
 	
 	//And create the needed controllers and views
-	var exampleView = new ExampleView($("#exampleView"));
+	var firstView = new FirstView($("#startWindow"), model);
+	var sideView = new SideView($("#sidebar"), model);
 
 });
