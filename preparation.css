@@ -1,0 +1,12 @@
+button {background-color: rgb(252, 193, 31); box-shadow: 3px 3px 1px black; border-radius: 2px;}
+#header a {color: black;}
+#header em {color: black;}
+#header {width: 100%; margin:0px; padding: 10px; background-color: lightgrey;}
+
+#selector button {margin-top:16px}
+#selector {background-color: bisque; margin-bottom: 20px;}
+
+
+
+
+
