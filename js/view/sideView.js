@@ -1,4 +1,3 @@
-//ExampleView Object constructor
 var SideView = function (container, model) {
 	
 	// Get all the relevant elements of the view (ones that show data

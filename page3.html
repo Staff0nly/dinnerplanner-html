@@ -51,19 +51,15 @@
         <button type="button">Confirm Dinner</button>
 	</div>
 	</div>
-           
+        
     <div id="dish">
-		<h3>Lasagne</h3>
+		<h3 id="dishName">Lasagne</h3>
 		<div id="dishInfo">
 		        <div class="dishimage">
-			<img src="/Users/stablo/Desktop/dinnerplanner-html-master/images/lasagne.jpg">
+			<img src="images/lasagne.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, lectus quis vulputate 
-ullamcorper, elit arcu egestas purus, in efficitur justo ipsum non ante. Fusce imperdiet auctor 
-nisi, sed interdum ex aliquam quis. Nam finibus ipsum eu massa condimentum pharetra. Aenean 
-lacinia sollicitudin odio, at varius massa scelerisque sit amet. Curabitur laoreet venenatis 
-justo id fringilla. Maecenas eget neque nec ante efficitur fermentum. Sed aliquam bibendum 
-suscipit. Nulla tincidunt vulputate ipsum, at tempor arcu eleifend interdum. </p>
+        <p id="dishDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, lectus quis vulputate 
+ullamcorper, elit arcu egestas purus. </p>
         <button type="button">Back to Select Dish</button>
 		
 		</div>
@@ -75,60 +71,11 @@ suscipit. Nulla tincidunt vulputate ipsum, at tempor arcu eleifend interdum. </p
 					<th> Amount</th>
 					<th>Ingredient</th>
 					<th>Price</th>
-				<tbody>
-					<tr>
-						<td>2 tbsp</td>
-						<td>olive oil</td>
-						<td>SEK 0.20</td>
-					</tr> 
-					<tr>
-						<td>750 g</td>
-						<td>lean beef mince</td>
-						<td>SEK 10.00</td>
-					</tr> 
-					<tr>
-						<td>90g</td>
-						<td>pack rosciutto</td>
-						<td>SEK 15.00</td>
-					</tr> 
-					<tr>
-						<td>100 ml</td>
-						<td>tomato sauce</td>
-						<td>SEK 10.00</td>
-					</tr> 
-					<tr>
-						<td>200 ml</td>
-						<td>hot beef stock</td>
-						<td>SEK 20.00</td>
-					</tr> 
-					<tr>
-						<td>750 g</td>
-						<td>lean beef mince</td>
-						<td>SEK 10.00</td>
-					</tr>
-					<tr>
-						<td>300 g</td>
-						<td>fresh pck lasagne sheets</td>
-						<td>SEK 5.00</td>
-					</tr> 
-					<tr>
-						<td>125 g</td>
-						<td>ball mozzarella</td>
-						<td>SEK 12.00</td>
-					</tr>		
-					<tr>
-						<td>100 ml</td>
-						<td>white sauce</td>
-						<td>SEK 5.00</td>
-					</tr>						
-					<tr>
-						<td><button type="button" id="confirmDish">Confirm Dish</button></td>
-						<td></td>
-						<td>SEK 77.20</td>
+				<tbody id="appendAfterHere">
+					
 				</tbody>
 		</div>
 	</div>
-	
 
       
       
@@ -144,6 +91,11 @@ suscipit. Nulla tincidunt vulputate ipsum, at tempor arcu eleifend interdum. </p
 	<script src="js/model/dinnerModel.js"></script>
 	<script src="js/view/sideView.js"></script>
 	<script src="js/view/firstView.js"></script>
-	<script src="js/view/mainViewController.js"></script>
+	<script src="js/view/selectView.js"></script>
+	<script src="js/view/selectView2.js"></script>
+	<script src="js/view/dishView.js"></script>
+	<script src="js/view/prepView.js"></script>
+	<script src="js/view/finalView.js"></script>
+	<script src="js/view/exampleViewController.js"></script>
   </body>
 </html>

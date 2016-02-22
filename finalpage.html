@@ -19,44 +19,25 @@
 		<h1 id="logo"><a href="#">Homelette <small><em>From the best chefs in the world directly into 
 your kitchen</em></small></a></h1>
     </div>
+	
+	<div id="finalViewID">
 	<div id="myDinner">
-		<h2>My Dinner: 4 people</h2>
+		<h2 id="numberOfGuests">My Dinner: <span>4</span> people</h2>
 		<button type="button">Go back and edit dinner</button>
 	</div>
 	  
 	<div class="menu">
-		<ul>
-		<li>
-			<div class="img">
-				<img src="images/sourdough.jpg" alt="Sourdough" width="140" height="140">
-				<div class="desc">Sourdough</div>
-				<div class="price"> 77.20 SEK</div>
-			</div>
-		</li>
-		<li>
-			<div class="img">
-				<img src="images/meatballs.jpg" alt="Meatballs" width="140" height="140">
-				<div class="desc">Meatballs</div>
-				<div class="price"> 180.60 SEK</div>
-			</div>
-		</li>
-		<li>
-			<div class="img">
-				<img src="images/toast.jpg" alt="Toast" width="140" height="140">
-				<div class="desc">Toast</div>
-				<div class="price"> 83.40 SEK</div>
-			</div>
-		</li>
+		<ul id="displayList">
 	</ul>
 	<div class="divider"></div>
 	
 	<div class="img" id="total">
 		<div id="totalString"><strong>Total:</strong>
-		<div class="price">341.20 SEK</div>
+		<div class="price" id="totalPrice"><span>341.20</span> SEK</div>
 		</div>
 	</div>
 </div>
-
+</div>
 	
 	
 	<hr align="center" width="85%">
@@ -73,7 +54,13 @@ your kitchen</em></small></a></h1>
 	<!-- The application JavaScript code -->
 	<script src="js/app.js"></script>
 	<script src="js/model/dinnerModel.js"></script>
-	<script src="js/view/exampleView.js"></script>
+	<script src="js/view/sideView.js"></script>
+	<script src="js/view/firstView.js"></script>
+	<script src="js/view/selectView.js"></script>
+	<script src="js/view/selectView2.js"></script>
+	<script src="js/view/dishView.js"></script>
+	<script src="js/view/prepView.js"></script>
+	<script src="js/view/finalView.js"></script>
 	<script src="js/view/exampleViewController.js"></script>
   </body>
 </html>

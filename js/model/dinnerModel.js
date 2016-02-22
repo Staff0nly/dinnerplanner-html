@@ -25,9 +25,24 @@ var DinnerModel = function() {
 		}
 	}
 
+	// returns all selected dishes
+	this.getSelectedDishes = function () {
+		return selectedDishes;		
+	}
+	
+	// return the price of one dish
+	this.getDishPrice = function (id) {
+		var dish = getDish(id);
+		var price = 0;
+		for(key in dish.ingredients){
+			price += dish.ingredients[key].price;
+		}
+		
+	}
+	
 	// Returns all the dishes on the menu.
 	this.getFullMenu = function() {
-		return selectedDishes;
+		return dishes;
 	}
 
 	// Returns all ingredients for all the dishes on the menu.
@@ -45,7 +60,7 @@ var DinnerModel = function() {
 	//Returns the total price of the menu (all the ingredients multiplied by number of guests).
 	this.getTotalMenuPrice = function() {
 		var totalPrice = 0;
-		var allIngredients = getAllIngredients();
+		var allIngredients = this.getAllIngredients();
 		for(key in allIngredients){
 			totalPrice += allIngredients[key].price;
 		}
@@ -150,7 +165,7 @@ var DinnerModel = function() {
 			}]
 		},{
 		'id':2,
-		'name':'Sourdough Starter',
+		'name':'Sourdough',
 		'type':'starter',
 		'image':'sourdough.jpg',
 		'description':"Here is how you make it... Lore ipsum...",
@@ -172,7 +187,7 @@ var DinnerModel = function() {
 			}]
 		},{
 		'id':3,
-		'name':'Baked Brie with Peaches',
+		'name':'Baked Peaches',
 		'type':'starter',
 		'image':'bakedbrie.jpg',
 		'description':"Here is how you make it... Lore ipsum...",

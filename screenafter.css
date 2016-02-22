@@ -1,23 +1,22 @@
 #sidebar { float:left; width: 20%; border-top:solid 1px #dedede; padding: 10px; }
 #sidebar p {margin-left: 180px;}
-#sidebar button {margin-left: 50px; margin-top: 10px;}
 #sidebar table {margin-top: 10px;}
 #sidebar h3 {}
 #sidebar .inline-field {margin-top: 10px; margin-bottom: 10px;}
 #sidebar th {width: 100%; background-color: #dedede}
 
 #selector {float: right; width: 80%; border:solid 1px #dedede; background-color: antiquewhite; padding: 20px;}
-#dishes {float: right; width: 80%}  
+#dishes2 {float: right; width: 80%}  
 
-#dishes {padding:20px; border: solid 1px #dedede;}
-#dishes ul{ list-style-type: none;}
-#dishes ul li{ float:left; width:20%; margin-right:9px; height:383px; overflow:hidden; }
-#dishes ul li{ margin-right:20px; }
+#dishes2 {padding:20px; border: solid 1px #dedede;}
+#dishes2 ul{ list-style-type: none;}
+#dishes2 ul li{ float:left; width:20%; margin-right:9px; height:383px; overflow:hidden; }
+#dishes2 ul li{ margin-right:20px; }
 
-#dishes .dishimage {width: 140px; height: 140px;}
-#dishes .dishimage img {background: contain;}
-#dishes p {margin-top: 10px}
-#dishes .dishname {position: absolute; top: 90px; left: 15px; background-color: burlywood; width: 140px; height 10px; text-align: center;}
+#dishes2 .dishimage {width: 140px; height: 140px;}
+#dishes2 .dishimage img {background: contain;}
+#dishes2 p {margin-top: 10px}
+#dishes2 .dishname {position: absolute; top: 90px; left: 15px; background-color: burlywood; width: 140px; height 10px; text-align: center;}
 
 #selector {padding: 10px;}
 
